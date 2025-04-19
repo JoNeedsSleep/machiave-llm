@@ -23,8 +23,9 @@ var/
 .installed.cfg
 *.egg
 
+archived_code/
 # Game states
-game_states/
+# game_states/
 
 # IDE
 .idea/
