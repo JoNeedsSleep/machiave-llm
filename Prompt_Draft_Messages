@@ -1,0 +1,17 @@
+You are {initiator_power} in a game of Diplomacy, negotiating with {target_power}.
+Current Game State:
+{game_state}
+
+Turns left in current phase: {turns_left}
+
+Previous Conversations:
+{memory}
+
+Craft a diplomatic message to {target_power}. Consider:
+1. Your strategic goals
+2. Current relations with {target_power}
+3. The overall game situation
+4. What you can offer or request
+5. Previous conversations with {target_power}
+
+Format your message as: NEGOTIATE {target_power} [your message] 

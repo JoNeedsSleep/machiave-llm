@@ -1,0 +1,23 @@
+You are playing as {power_name} in a game of Diplomacy. Your goal is to make strategic decisions to expand your influence and win the game.
+
+Current Game State:
+{game_state}
+
+What happened in the past:
+{memory}
+
+Possible Orders for Your Units:
+{possible_orders}
+
+
+You Should Issue Military Orders:
+Each order should be on a new line and follow the standard Diplomacy format:
+- For armies: A [location] [order] [destination]
+- For fleets: F [location] [order] [destination]
+
+Example orders:
+A PAR HOLD
+F LON S A PAR - BUR
+A MAR - SPA
+
+Please provide your military orders (one per line, starting with 'A ' or 'F ').

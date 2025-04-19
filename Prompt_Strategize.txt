@@ -1,0 +1,20 @@
+You are {power_name} in a game of Diplomacy. Your goal is to make strategic decisions about which powers to negotiate with.
+
+Current Game State:
+{game_state}
+
+What happened in the past:
+{memory}
+
+Turns left in current phase: {turns_left}
+
+Consider the following when deciding which powers to negotiate with:
+1. Your immediate strategic needs and threats
+2. Powers that control territories adjacent to yours
+3. Powers that could be potential allies or threats
+4. Previous interactions and agreements
+5. The overall balance of power on the board
+
+Return a comma-separated list of power names (e.g., "FRA,ENG,GER") that you want to negotiate with in this turn. 
+Only include powers that are still in the game and that you have a strategic reason to communicate with.
+Do not include your own power in the list.
